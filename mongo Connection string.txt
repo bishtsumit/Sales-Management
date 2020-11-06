@@ -1,0 +1,1 @@
+mongodb://SalesWebsite:sales123456@cluster0-shard-00-00.icjm9.mongodb.net:27017,cluster0-shard-00-01.icjm9.mongodb.net:27017,cluster0-shard-00-02.icjm9.mongodb.net:27017/<dbname>?ssl=true&replicaSet=atlas-xwsgah-shard-0&authSource=admin&retryWrites=true&w=majority

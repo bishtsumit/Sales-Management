@@ -1,0 +1,9 @@
+export const GET_ERRORS = "GET_ERRORS";
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const REQUEST_SITE = "REQUEST_SITE";
+export const ALL_REQUESTS = "ALL_REQUESTS";
+export const REQUEST_DATA_BY_ID = "REQUEST_DATA_BY_ID";
+export const GET_FEATURES = "GET_FEATURES";
+export const ADD_WEBSITE = "ADD_WEBSITE";
+export const ALL_SITES = "ALL_SITES";
+export const ALL_FOLLOWUPS = "ALL_FOLLOWUPS";

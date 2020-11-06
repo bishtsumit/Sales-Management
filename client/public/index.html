@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--  <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    /> -->
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
+      integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.google.com/specimen/Roboto?selection.family=Roboto"
+      rel="stylesheet"
+    />
+
+    <style type="text/css">
+      .line {
+        fill: none;
+        stroke: steelblue;
+        stroke-width: 1.5px;
+      }
+
+      .legenditem {
+        margin-top: 38%;
+        float: left;
+        padding-right: 10px;
+        clear: both;
+      }
+      */ .PageBackground {
+        /*background-color: #D3D3D3 !important;*/
+        background-color: #f5f9fa !important;
+      }
+
+      .sidenav-overlay {
+        opacity: 0 !important;
+        display: none;
+      }
+
+      #slide-out li a {
+        color: #8d97a9;
+      }
+
+      #slide-out li.selected a i {
+        color: #8d97a9 !important;
+      }
+
+      #slide-out li.selected a {
+        color: #47b2de !important;
+      }
+
+      #slide-out li.selected a i {
+        color: #47b2de !important;
+      }
+
+      .SideMenuBackground {
+        background-color: #50aeec !important;
+        background-image: linear-gradient(
+          to bottom right,
+          rgba(255, 255, 255, 0),
+          rgba(255, 255, 255, 0.5)
+        ) !important;
+      }
+
+      /*Custom Scrollbar*/
+
+      ::-webkit-scrollbar {
+        width: 5px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: white;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #a3b3bd;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+
+      /*Custom Scrollbar*/
+
+      .CustomTable tbody {
+        display: block;
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+
+      .CustomTable thead {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+      }
+
+      .CustomTable tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+      }
+
+      .CustomTable thead {
+        width: calc(100% - 1em);
+      }
+
+      .CustomTable table {
+        width: 100%;
+      }
+
+      .CustomTable table td {
+        min-width: 100px !important;
+      }
+
+      .CustomTable table th {
+        min-width: 100px !important;
+      }
+
+      .boxShadow {
+        border: none;
+      }
+    </style>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="../src/D3Functions.js"></script>
+    <title>Sales management System</title>
+  </head>
+
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+      integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+      integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </body>
+</html>
